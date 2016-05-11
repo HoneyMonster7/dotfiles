@@ -116,7 +116,8 @@ export PATH=${PATH}:~/Downloads/android-sdk-linux/tools
 
  export PATH=${PATH}:~/Downloads/android-sdk-linux/platform-tools
  export PATH=${PATH}:~/bin
-alias l='ls -alFh'
-alias ..='cd ..'
-alias vi='vim'
-alias molden='~/software/molden/molden -l'
+source ~/.aliases
+#alias l='ls -alFh'
+#alias ..='cd ..'
+#alias vi='vim'
+#alias molden='~/software/molden/molden -l'
