@@ -1,0 +1,16 @@
+
+
+alias calc='python3 -ic "from math import *; import cmath"'
+alias lsd=' ls -dtrlah */'
+
+alias disscommit='git --git-dir=/home/balint/Documents/frankenstein/.git/ --work-tree=/home/balint/Documents/frankenstein/ add /home/balint/Documents/frankenstein/docs/dissertation.{tex,bib} && git --git-dir=/home/balint/Documents/frankenstein/.git/ --work-tree=/home/balint/Documents/frankenstein/ commit'
+
+alias hlist='sudo hamachi list'
+alias tmux="TERM=screen-256color-bce tmux"
+
+alias atv='~/atvdownloader/atvdownloader.sh'
+
+#to solve the multiple group pdf whatever issue in latex
+alias pdfgroupremove='find . -name "*.pdf" -type f -exec sed -i '"'"'\/Group <</,+5d'"'"' {} \;'
+
+alias bestcells='for i in `seq 1 20`; do tar -zxf response.$i.tar.gz --wildcards -C . --strip=2 "*job$i/CP10/*job"$i"CP10NR1cell.xgmml" ; done'
