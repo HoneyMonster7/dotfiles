@@ -1,4 +1,6 @@
 
+alias vi='vim'
+alias l='ls -lah'
 
 alias calc='python3 -ic "from math import *; import cmath"'
 alias lsd=' ls -dtrlah */'
@@ -14,3 +16,4 @@ alias atv='~/atvdownloader/atvdownloader.sh'
 alias pdfgroupremove='find . -name "*.pdf" -type f -exec sed -i '"'"'\/Group <</,+5d'"'"' {} \;'
 
 alias bestcells='for i in `seq 1 20`; do tar -zxf response.$i.tar.gz --wildcards -C . --strip=2 "*job$i/CP10/*job"$i"CP10NR1cell.xgmml" ; done'
+
